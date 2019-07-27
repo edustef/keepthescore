@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2f323d;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: white;
+}
+.gameOver {
+    font-size: 3.8rem;
+    color: #bb3a3a;
+}
+h2 {
+    font-size: 1.6rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    margin-bottom: -8px;
+}
+.gameOver, h2 {
+    display: none;
+}
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: -25px;
+}
+.buttons {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+h1 + p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 0.15rem;
+}
+.plays {
+    font-size: 1.3rem;
+}
+#inptField, button {
+    background-color: #12172b;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    outline:none;
+}
+button {
+    margin: 5px 0 5px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btns:hover {
+    background-color: #282c3b;
+}
+.btns:active {
+    background-color: #12172b;
+}
+#btnReset {
+    background-color: #4b1b1b;
+}
+#btnReset:hover {
+    background-color: #682323;
+}
+#btnReset:active {
+    background-color: #4b1b1b;
+}
+
+@media screen and (max-width: 600px) {
+    .buttons {
+        width: 300px;
+    }
+}
